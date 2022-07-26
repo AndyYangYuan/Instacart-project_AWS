@@ -1,18 +1,18 @@
 ### Data Preparation
 ***
-**1. Create S3 Bucket and Upload csv files**
+#### 1. Create S3 Bucket and Upload csv files
 ![my Picture](/step_1/assets/image/s3%20bucket.png)
 ***
-**2. Use Glue Crawler to check the data**
+#### 2. Use Glue Crawler to check the data
 ![my picture](assets/image/crawler.png)
 ***
-**3. Use Athena to Audit the data**
+#### 3. Use Athena to Audit the data
 ![my picture](assets/image/Athena.png)
 ***
-**4. Draw an ER diagram to show the relationships of 5 tables**
+#### 4. Draw an ER diagram to show the relationships of 5 tables
 ![my picture](assets/image/Relational%20Model.png)
 ***
-**5. Code as Infrastructure**
+#### 5. Code as Infrastructure
 use the AWS cloudformation template to create an AWS S3 Bucket by run workflows in github action to faciliate CI/CD processes
 
 - CloudFormation template
